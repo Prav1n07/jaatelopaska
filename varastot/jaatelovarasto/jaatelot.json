@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "nimi":"Mansikka",
+        "hinta":2,
+        "kuva":"mansikka.jpg"
+    },
+        {
+        "id":2,
+        "nimi":"Mustikka",
+        "hinta":3,
+        "kuva":"mustikka.jpg"
+    },
+    {
+        "id":3,
+        "nimi":"Vadelma",
+        "hinta":3,
+        "kuva":"vadelma.jpg",
+        "x": "2"
+    },
+    {
+        "id":4,
+        "nimi":"Vadelma",
+        "hinta":"a",
+        "kuva":"vadelma.jpg"
+    },
+    {
+        "id":5,
+        "nimi":"Vadelma",
+        "hinta": null,
+        "kuva":"vadelma.jpg"
+
+    },
+    {
+        "id":6,
+        "nimi":"Vadelma",
+        "hinta": 0,
+        "kuva":"vadelma.jpg"
+    }
+]

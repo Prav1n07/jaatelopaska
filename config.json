@@ -1,0 +1,28 @@
+{
+    "apukirjasto":{
+        "kansio":"apukirjasto",
+        "luekomentorivi":"luekomentorivi.js",
+        "muodostapolut":"muodostapolut.js",
+        "muodostakirjastot":"muodostakirjastot.js"
+    },
+    "palvelinkirjasto":{
+        "kansio":"palvelinkirjasto",
+        "palvelinfunktiot":"palvelinfunktiot"
+
+    },
+    "datakerros":{
+        "kansio":"datakerros",
+        "tietovarastokerros":"tietovarastokerros.js",
+        "varastokerros":"varastokerros.js"
+    },
+    "varastokirjasto":{
+        "kansio":"varastokirjasto",
+        "datasovitin":"datasovitin.js",
+        "lukijakirjoittaja":"lukijakirjoittaja.js",
+        "kuvatyypit":"mimetyypit.json"
+    },
+    "varastot":{
+        "kansio":"varastot",
+        "asetustiedotkansio":"asetustiedot"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name":"datapalvelin2025es6",
+    "version": "1.0.0",
+    "description": "yleiskäyttöinen datapalvelin komponenttikursseille",
+    "type":"module"
+}

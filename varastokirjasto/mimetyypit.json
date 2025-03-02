@@ -1,0 +1,7 @@
+{
+    ".jpg":{"tyyppi": "image/jpeg", "koodaus":"binary"},
+    ".png":{"tyyppi": "image/png", "koodaus":"binary"},
+    ".jpeg":{"tyyppi": "image/jpeg", "koodaus":"binary"},
+    ".gif":{"tyyppi": "image/gif", "koodaus":"binary"},
+    ".ico":{"tyyppi": "image/vnd.microsoft.com", "koodaus":"binary"}
+}

@@ -1,0 +1,6 @@
+{
+    "perusavain": "id",
+    "hakuavaimet": ["id", "nimi", "hinta"],
+    "resurssi": "jäätelöt",
+    "numerokentät": ["id", "hinta"]
+}   
