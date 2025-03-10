@@ -30,7 +30,7 @@ class LukijaKirjoittaja{
                 return await fs.readFile(kuvapolku, 'binary');
             }
             catch(virhe){
-                console.log(virhe);
+                console.log("luekuva" + virhe);
                 return null;
             }
         } //luekuva loppu

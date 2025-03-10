@@ -12,7 +12,7 @@ class Varastokerros {
         this.#MIMETYYPIT=KIRJASTOT.kuvatyypit;
         this.#varastopolku = KIRJASTOT.polut.varastotiedostoPolku;
         this.#kuvakansioPolku = KIRJASTOT.polut.kuvakansioPolku;
-        const {LukijaKirjoittaja} = KIRJASTOT.varastofunktiot;
+        const {LukijaKirjoittaja} = KIRJASTOT.lukijakirjoittaja;
         const Muunnin = KIRJASTOT.sovitin;
         this.#lukija = new LukijaKirjoittaja(new Muunnin(this.#asetukset.numerokentät));
     }

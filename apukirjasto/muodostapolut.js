@@ -46,7 +46,7 @@ function muodostaPolut(JUURI, config, varastoasetukset){
 
     }
 
-    polut.kuvakasioPolku= kuvakansio?path.join(varastokansioPolku, kuvakansio):'';
+    polut.kuvakansioPolku= kuvakansio?path.join(varastokansioPolku, kuvakansio):'';
 
     const avaimet=Object.keys(varastoasetukset.varasto);
     //korvataan oletus lukijakirjoittaja paikallisella versiolla

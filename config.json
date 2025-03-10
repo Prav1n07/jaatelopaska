@@ -7,7 +7,7 @@
     },
     "palvelinkirjasto":{
         "kansio":"palvelinkirjasto",
-        "palvelinfunktiot":"palvelinfunktiot"
+        "palvelinfunktiot":"palvelinfunktiot.js"
 
     },
     "datakerros":{

@@ -177,4 +177,4 @@ palauttaa JSON-taulukon. Virhetilanteessa palauttaa tyhjän taulukon []
 -   `/<resurssi>/kuvatyypit`
     -   /jäätelöt/kuvatyypit
 -   `/<resurssi>/kuvat?nimi=kuvannimi`
-    -   /jäätelöt/kuvat?nimi=mansikka.png
+    -   /jäätelöt/kuvat?nimi=mansikka.jpg
