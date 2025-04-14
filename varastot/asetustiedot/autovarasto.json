@@ -1,0 +1,10 @@
+{
+    "port":"3002",
+    "host":"localhost",
+    "varasto":{
+        "kansio":"autovarasto",
+        "asetustiedosto":"autoasetukset.json",
+        "varastotiedosto":"autot.json",
+        "kuvakansio":"mainoskuvat"
+    }
+}

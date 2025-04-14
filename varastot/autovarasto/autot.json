@@ -1,0 +1,16 @@
+[
+    {
+        "tuotenumero":1,
+        "merkki":"Hoppa",
+        "varit":["punainen", "sininen", "oranssi"],
+        "hinta":20000,
+        "kuva":"auto1.jpg"
+    },
+    {
+        "tuotenumero":2,
+        "merkki":"Kaara",
+        "varit":["oranssi"],
+        "hinta":10000,
+        "kuva":"auto2.jpg"
+    }
+]

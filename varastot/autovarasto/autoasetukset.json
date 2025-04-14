@@ -1,0 +1,6 @@
+{
+    "perusavain": "tuotenumero",
+    "hakuavaimet": ["tuotenumero", "merkki", "hinta"],
+    "resurssi": "autot",
+    "numerokentät": ["tuotenumero", "hinta"]
+}   
