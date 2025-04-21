@@ -123,7 +123,7 @@ function kaynnistaPalvelin(KIRJASTOT){
 
 
     palvelin.listen(port,host,
-        ()=>console.log(`${host}:${port} palvelee...`));
+        ()=>console.log(`http://${host}:${port} palvelee...`));
 
  
 
