@@ -1,0 +1,9 @@
+{
+    "port":"3003",
+    "host":"localhost",
+    "varasto":{
+        "kansio":"autovarasto2",
+        "asetustiedosto":"autoasetukset.json",
+        "varastotiedosto":"autot.json"
+    }
+}

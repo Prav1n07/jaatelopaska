@@ -1,0 +1,68 @@
+[
+	{
+		"autonumero": 4,
+		"hinta": 36000,
+		"merkki": "Kottero",
+		"malli": "chrome",
+		"tuotemäärä": 15,
+		"värit": ["keltainen", "valkoinen", "vihreä"],
+		"lisätiedot": {
+			"voimanlähde": "sähkö"
+		}
+	},
+	{
+		"autonumero": 1,
+		"hinta": 4000,
+		"merkki": "Hoppa",
+		"malli": "XXL",
+		"tuotemäärä": 7,
+		"värit": ["punainen"],
+		"lisätiedot": {
+			"voimanlähde": "hybridi"
+		}
+	},
+	{
+		"autonumero": 6,
+		"hinta": 123000,
+		"merkki": "Ajokki",
+		"malli": "gold",
+		"tuotemäärä": 7,
+		"värit": ["valkoinen", "sininen", "punainen", "musta"],
+		"lisätiedot": {
+			"voimanlähde": "polkuvoima"
+		}
+	},
+	{
+		"autonumero": 2,
+		"hinta": 4000,
+		"merkki": "Biili",
+		"malli": "XXL",
+		"tuotemäärä": 13,
+		"värit": ["sininen", "keltainen"],
+		"lisätiedot": {
+			"voimanlähde": "työntövoima"
+		}
+	},
+	{
+		"autonumero": 5,
+		"hinta": 15000,
+		"merkki": "Kilpuri",
+		"malli": "chrome",
+		"tuotemäärä": 20,
+		"värit": ["keltainen"],
+		"lisätiedot": {
+			"voimanlähde": "Bensiini"
+		}
+	},
+	{
+		"autonumero": 3,
+		"hinta": 200000,
+		"merkki": "Menopeli",
+		"malli": "XXL",
+		"tuotemäärä": 15,
+		"värit": ["valkoinen", "oranssi", "vihreä", "sininen", "musta"],
+		"lisätiedot": {
+			"voimanlähde": "kaasu"
+		}
+	}
+]
