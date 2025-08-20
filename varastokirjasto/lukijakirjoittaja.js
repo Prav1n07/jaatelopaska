@@ -45,9 +45,25 @@ class LukijaKirjoittaja{
                 console.log(virhe);
                 return [];
             }
-        }
+        } //luekuvalista loppu
 
+  async kirjoitaVarasto(varastotiedosto, data) {
+    try {
+      const muunnettuData = data.map(arvo => this.#muunnin.muunna(arvo));
+      await fs.writeFile(varastotiedosto, JSON.stringify(muunnettuData, null, 4), {
+        encoding: 'utf8',
+        flag: 'w'
+      });
+      
+      return true;
     }
+    catch (virhe) {
+      // console.log(virhe)
+      return false;
+    }
+  }
+  
+}
 
 
 

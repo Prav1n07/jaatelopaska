@@ -178,3 +178,83 @@ palauttaa JSON-taulukon. Virhetilanteessa palauttaa tyhjän taulukon []
     -   /jäätelöt/kuvatyypit
 -   `/<resurssi>/kuvat?nimi=kuvannimi`
     -   /jäätelöt/kuvat?nimi=mansikka.jpg
+
+
+# Vaihe 2: REST-palvelin
+
+Palvelimeen lisätään REST-osuus tietojen hakuun, lisäykseen, muutokseen ja poistoon. Toteutetaan operaatiot GET, POST, PUT, DELETE sekä HEAD ja OPTIONS. palvelin tukee `cors`:ia.
+
+Palvelin palvelee samassa portissa kuin aiempi datapalvelin, mutta reitissä `/rest/`
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods
+
+### Esimerkit
+
+oletetaan, että host on localhost, portti on 3001 ja resurssi `jäätelöt`
+
+### Resurssi
+
+```
+localhost:3001/rest/jäätelöt
+```
+
+### kaikki jäätelöt taulukkona
+```
+GET localhost:3001/rest/jäätelöt
+```
+
+```
+GET /rest/jäätelöt
+```
+
+### haetaan jäätelö perusavaimella 2
+```
+GET localhost:3001/rest/jäätelöt/2
+```
+palauttaa olion
+
+### lisätään jäätelö
+```
+POST localhost:3001/rest/jäätelöt
+```
+
+Lisättävä olio annetaan body:ssa
+
+### päivitetään tiedot perusavaimella 2
+```
+PUT localhost:3001/rest/jäätelöt/2
+```
+Muutettava/lisättävä olio annetaan body:ssa
+
+### poistetaan perusavaimella 2
+```
+DELETE localhost:3001/rest/jäätelöt/2
+```
+
+## Tilaviestit
+
+```js
+
+static STATUSKOODIT={
+  OHJELMAVIRHE:0,
+  EI_LOYTYNYT:1,
+  LISAYS_OK:2,
+  ...
+}
+
+static TYYPIT={
+  VIRHE:'virhe',
+  INFO:'info'
+}
+
+static STATUSVIESTIT={
+  OHJELMAVIRHE: () => ({
+    viesti:'Anteeksi! Virhe ohjelmassamme.',
+    statuskoodi:STATUSKOODIT.OHJELMAVIRHE,
+  }),
+  EI_LOYTYNYT: avain=>({
+    viesti:`Annetulla avaimella ${avain} ei löytynyt tietoja.`
+  })
+}
+
+```

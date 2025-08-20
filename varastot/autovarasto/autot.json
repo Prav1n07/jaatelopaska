@@ -1,16 +1,30 @@
 [
-    {
-        "tuotenumero":1,
-        "merkki":"Hoppa",
-        "varit":["punainen", "sininen", "oranssi"],
-        "hinta":20000,
-        "kuva":"auto1.jpg"
-    },
-    {
-        "tuotenumero":2,
-        "merkki":"Kaara",
-        "varit":["oranssi"],
-        "hinta":10000,
-        "kuva":"auto2.jpg"
-    }
+	{
+		"tuotenumero": 1,
+		"merkki": "Hoppa",
+		"varit": ["punainen", "sininen", "oranssi"],
+		"hinta": 20000,
+		"kuva": "auto1.jpg"
+	},
+	{
+		"tuotenumero": 2,
+		"merkki": "Kaara",
+		"varit": ["oranssi"],
+		"hinta": 10000,
+		"kuva": "auto2.jpg"
+	},
+	{
+		"tuotenumero": 3,
+		"merkki": "Volvo",
+		"varit": ["keltainen", "sininen"],
+		"hinta": 10000,
+		"kuva": "auto3.jpg"
+	},
+	{
+		"tuotenumero": 4,
+		"merkki": "Audi",
+		"varit": ["musta"],
+		"hinta": 10000,
+		"kuva": "auto3.jpg"
+	}
 ]
